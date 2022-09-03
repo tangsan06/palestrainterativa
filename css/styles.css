@@ -64,3 +64,9 @@
   color: #fff!important;
   background-color: #a80532 !important;
 }
+
+
+#qr-video {
+  border: 1px solid black;
+  width: 100%;
+}
