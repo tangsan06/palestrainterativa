@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+
+        <script src="js/scripts.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
+        <script src="js/bootstrap/bootstrap.bundle.min.js?<?php echo date('Y-m-d_H:i:s'); ?>"></script>
+        <style>
+          .img-fatec {
+            max-width: 100px;
+          }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-wine" aria-label="Dark offcanvas navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Paletra Interativa</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-wine" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+                <div class="offcanvas-header">
+                  <img src="img/fatec_logo.png" class="offcanvas-title img-fatec" id="offcanvasNavbarDarkLabel"></img>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" id="closeOffCanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#home">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#login">Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+          <div id="content">
+            
+          </div>
+    </body>
+</html>
